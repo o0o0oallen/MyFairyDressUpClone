@@ -4377,8 +4377,8 @@
             this.urlPriority = this.calcPriority(e.s_sdk_adv_show_url_list, this.name),
             this.pasterPriority = this.calcPriority(e.s_sdk_adv_show_paster_list, this.name),
             this.fShowVideoCallback = this.processShowAdvCallback("video", this.showVideoAdv.bind(this)),
-            this.fShowInterCallback = this.processShowAdvCallback("interstitial", this.showInterAdv.bind(this)),
-            this.fShowBannerCallback = this.processShowAdvCallback("banner", this.showBannerAdv.bind(this)),
+            /*this.fShowInterCallback = this.processShowAdvCallback("interstitial", this.showInterAdv.bind(this)),*/
+            /*this.fShowBannerCallback = this.processShowAdvCallback("banner", this.showBannerAdv.bind(this)),*/
             this.fShowEmbeddedCallback = this.processShowAdvCallback("embedded", this.showEmbeddedAdv.bind(this)),
             this.fShowUrlCallback = this.processShowAdvCallback("url", this.showUrlAdv.bind(this)),
             this.fShowPasterCallback = this.processShowAdvCallback("paster", this.showPasterAdv.bind(this)),
