@@ -21296,12 +21296,12 @@
     }
     class NetworkWS {
         static newSeasion(e, t) {
-            /*let a = "ws://" + e + ":" + t.toString();
+            let a = "ws://" + e + ":" + t.toString();
             console.log("连接地址:", a);
             let i = new WebSocket(a)
               , s = new SeasionWS;
             return s.setSocket(i),
-            s*/
+            s
         }
     }
     class GameRemoteRouter {
