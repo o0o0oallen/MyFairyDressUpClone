@@ -21957,7 +21957,7 @@
         }
         startGame() {
             if (Laya.Browser.onPC) {
-                let e = NetworkWS.newSeasion("127.0.0.1", 8081);
+                let e = NetworkWS.newSeasion("localhost", 3000);
                 e.on("open", this, ()=>{
                     Timer.callLater(1, ()=>{
                         mgrTip.showMsgTip("链接存档服务器成功！可以存档！")
